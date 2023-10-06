@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Post from "./Post";
-import InstagramEmbed from "react-instagram-embed";
 
 import { db, auth } from "./firebase";
 import { Modal, makeStyles, Button, Input } from "@material-ui/core";
